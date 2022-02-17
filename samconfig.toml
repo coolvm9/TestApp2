@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "TestApp2"
+s3_bucket = "satyalambdacode"
+s3_prefix = "TestApp2"
+region = "us-west-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
